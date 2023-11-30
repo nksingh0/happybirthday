@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		function myFunction(){
+		  var pass = document.getElementById("pass").value;
+		
+		if(pass == "DARSHAN"){
+					window.location.href="3.html"
+				alert("correct");
+		   }else{
+			alert("Incorrect");
+			}
+		}
+		</script>
+</head>
+<body>
+	<div class="container">
+		<div class="love">
+			<h2 style="font-size: 2em;">The person you listen to, see, and like the most.<br>
+				The guy who is cute and handsome. <br>who is he?</h2>
+				<img src="2.jpg" height="300" width="250"><br><br>
+				<input name="pass" id="pass" value="enter capital letter" ><br><br>
+				<input type="button" value="Submit" onclick="myFunction()">
+		</div>
+	</div>
+</body>
+</html>

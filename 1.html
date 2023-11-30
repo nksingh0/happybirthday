@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		function myFunction(){
+		  var pass = document.getElementById("pass").value;
+		
+		if(pass == "TUESDAY"){
+					window.location.href="2.html"
+				alert("correct");
+		   }else{
+			alert("Incorrect");
+			}
+		}
+		</script>
+</head>
+<body>
+	<div class="container">
+		<div class="love">
+			<h2>ENTER YOUR BIRTHDAY</h2>
+			<img src="1.jpg" height="300" width="250"><br><br>
+				<input name="pass" id="pass" value="enter capital letter" ><br><br>
+				<input type="button" value="Submit" onclick="myFunction()">				 
+		</div>
+	</div>
+</body>
+</html>
